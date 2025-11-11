@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="iso-8859-1" />
+  <title>Halaman Utama</title>
+  <style type="text/css">
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #fff0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Menu navigasi */
+    .menu {
+      width: 1321px;
+      height: 58px;
+      margin: auto;
+      display: flex;
+    }
+
+    .menu-item {
+      flex: 1;
+      background-color: pink;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .menu-item:hover {
+      background-color: white;
+    }
+
+    /* Banner */
+    .banner {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* Section Title */
+    .section-title {
+      width: 1340px;
+      margin: auto;
+      background-color: #FF6666;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Tabel produk */
+    .product-table, .price-table {
+      width: 1340px;
+      margin: auto;
+      border-collapse: collapse;
+    }
+
+    .product-table td, .price-table td {
+      border: 1px solid #000;
+      text-align: center;
+      vertical-align: middle;
+      padding: 5px;
+    }
+
+    .product-name {
+      background-color: #FF9999;
+      font-size: 18px;
+    }
+
+    .product-price {
+      background-color: #FFCCCC;
+      font-size: 16px;
+    }
+
+    /* Efek zoom pada gambar */
+    .product-table img {
+      transition: transform 0.3s ease;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .product-table img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  .style1 {color: #000000}
+  </style>
+</head>
+<body>
+
+  <!-- Menu Navigasi -->
+  <div class="menu">
+    <a href="#" class="menu-item">HALAMAN UTAMA</a>
+    <a href="shopping guide.html" class="style1">SHOPPING GUIDE</a>
+    <a href="catalog.html" class="menu-item">CATALOG</a>
+    <a href="profil.html" class="style1">PROFIL</a> </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="img/banner bunga.jpg" width="1125" height="224" alt="Banner Bunga" />
+  </div>
+
+  <!-- Judul Section -->
+  <div class="section-title">
+    <marquee>BEST SELLER</marquee>
+  </div>
+
+  <!-- Produk Baris Pertama -->
+  <table align="center" class="product-table">
+    <tr>
+      <td width="338" height="237">
+        <img src="img/bunga mawar.jpg" width="338" height="303" alt="Bunga Mawar" />
+      </td>
+      <td width="326">
+        <img src="img/bunga tulip.jpg" width="317" height="305" alt="Bunga Tulip" />      </td>
+      <td width="323">
+        <img src="img/bunga matahari.jpg" width="323" height="301" alt="Bunga Matahari" />
+      </td>
+      <td width="325">
+        <img src="img/bunga lyly.jpg" width="318" height="303" alt="Bunga Lily" />
+      </td>
+    </tr>
+    <tr class="product-name">
+      <td>Bunga Mawar</td>
+      <td>Bunga Tulip</td>
+      <td>Bunga Matahari</td>
+      <td>Bunga Lily</td>
+    </tr>
+</table>
+
+  <table width="1356" height="41" class="price-table">
+    <tr class="product-price">
+      <td width="348">Rp. 10.000</td>
+      <td width="328">Rp. 9.500</td>
+      <td width="331">Rp. 15.000</td>
+      <td width="313">Rp. 20.000</td>
+    </tr>
+</table>
+
+  <!-- Produk Baris Kedua -->
+  <table align="center" class="product-table" style="margin-top: 20px;">
+    <tr>
+      <td width="336" height="279">
+        <img src="img/bunga edelweis.jpg" width="336" height="324" alt="Bunga Edelweis" />
+      </td>
+      <td width="331">
+        <img src="img/bunga kamboja.jpg" width="331" height="326" alt="Bunga Kamboja" />
+      </td>
+      <td width="324">
+        <img src="img/bunga dahlia.jpg" width="326" height="322" alt="Bunga Dahlia" />
+      </td>
+      <td width="321">
+        <img src="img/bunga lavender.jpg" width="318" height="320" alt="Bunga Lavender" />
+      </td>
+    </tr>
+    <tr class="product-name">
+      <td>Bunga Edelweis</td>
+      <td>Bunga Kamboja</td>
+      <td>Bunga Dahlia</td>
+      <td>Bunga Lavender</td>
+    </tr>
+</table>
+
+  <table width="1348" height="40" class="price-table">
+    <tr class="product-price">
+      <td width="346">Rp. 25.000</td>
+      <td width="340">Rp. 12.000</td>
+      <td width="335">Rp. 16.000</td>
+      <td width="299">Rp. 18.000</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
